@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "/;remotetest";
+
+
+message Hello{
+  int32 testNumber = 1;
+}
+
+message HelloResult{
+  string message = 1;
+}
+
+service Test{
+  rpc GetTestResult(Hello) returns (HelloResult){}
+}
