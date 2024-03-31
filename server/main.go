@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	pb "grpc_test/server/proto"
 	"log"
 	"net"
 
+	pb "github.com/TopinLLL/grpctest/server/proto"
 	"google.golang.org/grpc"
 )
 

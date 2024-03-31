@@ -4,10 +4,10 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	pb "grpc_test/server/proto"
 	"log"
 	"time"
 
+	pb "github.com/TopinLLL/grpctest/server/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )
